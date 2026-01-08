@@ -5,4 +5,4 @@ COPY . .
 
 EXPOSE 8000
 
-CMD ["/data/docker-entry.sh"]
+CMD ["docker-entry.sh"]
