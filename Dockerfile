@@ -1,4 +1,4 @@
-FROM python:3.9.19-slim-trixie
+FROM python:3.9.19-alpine
 
 WORKDIR /data
 COPY . /data
