@@ -5,4 +5,4 @@ COPY . .
 RUN chmod +x docker-entry.sh
 EXPOSE 8000
 
-CMD ["./docker-entry.sh"]
+CMD ["/data/docker-entry.sh"]
