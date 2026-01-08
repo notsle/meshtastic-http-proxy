@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Working Directory
-cd /data
+#cd /data
 
 # Install Python Dependancies
 pip install -r requirements.txt
