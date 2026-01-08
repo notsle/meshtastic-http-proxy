@@ -1,4 +1,7 @@
-FROM python:3.9.19-slim-bullseye
+FROM python:3.9.19-slim-trixie
+
+WORKDIR /data
+COPY . /data
 
 EXPOSE 8000
 
